@@ -1,0 +1,191 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply black theme and default font */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* HERO Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+.glow-text {
+  font-size: 4rem;
+  color: #00fff7;
+  text-shadow: 0 0 15px #00fff7;
+}
+.tagline {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+  color: #aaa;
+}
+.buttons .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #111;
+  border: 1px solid #00fff7;
+  color: #00fff7;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.buttons .btn:hover {
+  background: #00fff7;
+  color: #000;
+}
+
+/* INTRO Section */
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 40px 0;
+  color: #ccc;
+}
+
+/* PROJECTS Grid */
+.projects {
+  padding: 40px 20px;
+  text-align: center;
+}
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.project-card {
+  background: #111;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.project-card:hover {
+  border-color: #00fff7;
+  box-shadow: 0 0 10px #00fff7;
+}
+.project-card h3 {
+  color: #9b5de5;
+  margin-bottom: 10px;
+}
+
+/* QUOTE Section */
+.quote {
+  margin: 60px 0;
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}
+.quote blockquote {
+  margin: 10px 0;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #222;
+  font-size: 0.9rem;
+  color: #666;
+}
+.footer-links a {
+  margin: 0 10px;
+  color: #555;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #00fff7;
+}
+/* For section headers */
+h2 {
+  font-size: 1.6rem;
+  margin: 30px 0 10px;
+  color: #00fff7;
+  text-align: center;
+}
+
+/* Beliefs list */
+.beliefs ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.beliefs li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Responsive tweaks (optional) */
+@media (max-width: 600px) {
+  .buttons .btn {
+    display: block;
+    margin: 10px auto;
+  }
+}
+.contact-methods {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+.contact-methods a {
+  color: #00fff7;
+  text-decoration: none;
+}
+.contact-methods a:hover {
+  text-decoration: underline;
+}
+body.dark-theme {
+  background-color: #000;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+nav a {
+  color: #00fff7;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-shadow: 0 0 8px #00fff7;
+}
+
+main {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #00fff7;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #222;
+  color: #555;
+}
